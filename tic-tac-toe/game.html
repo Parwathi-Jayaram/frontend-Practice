@@ -41,6 +41,7 @@
             background-color: rgba(210, 188, 231, 0.832);
             border-radius: 1rem;
             color: rgb(138, 43, 226);
+            font-size: 30px;
         }
 
         .box:hover {
@@ -128,7 +129,7 @@
                 checkWinner();
             } else {
                 box.innerText = 'X';
-                box.style.color = 'black';
+                box.style.color = 'red';
                 turnO = true;
                 box.disabled = true;
                 checkWinner();
